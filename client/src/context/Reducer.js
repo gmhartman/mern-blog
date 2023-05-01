@@ -31,7 +31,7 @@ const Reducer = (state, action) => {
         };
       case "UPDATE_FAILURE":
         return {
-          user: null,
+          user: state.user,
           isFetching: false,
           error: true,
         };
