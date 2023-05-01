@@ -1,0 +1,30 @@
+.header {
+    margin-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: tomato;
+}
+
+.headerTitleSm {
+    position: absolute;
+    top: 18%;
+    font-size: 1.25rem;
+}
+
+.headerTitleLg {
+    position: absolute;
+    top: 20%;
+    font-size: 7rem;
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    margin-top: 5rem;
+    object-fit: cover;
+}
